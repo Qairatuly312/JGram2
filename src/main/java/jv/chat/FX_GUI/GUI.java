@@ -68,7 +68,7 @@ public class GUI extends Application {
         Button profileButton = new Button("Profile");
         profileButton.setPrefWidth(150);
 
-        HBox buttonsBox = new HBox(5, profileButton]);
+        HBox buttonsBox = new HBox(5, profileButton);
         buttonsBox.setPadding(new Insets(10));
 
         leftPanel.getChildren().addAll(userBox, contactsList, buttonsBox);
